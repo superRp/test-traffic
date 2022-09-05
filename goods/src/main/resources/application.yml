@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: GOOD
+server:
+  port: 8443
+  servlet:
+    context-path: /goods
